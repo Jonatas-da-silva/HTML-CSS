@@ -10,7 +10,9 @@
 <body>
     <h1>Trabalhando com listas</h1>
     <h2>Listas ordenadas</h2> <!--são aquelas em que a ordem faz a diferença-->
-    <p>As listas ordenadas<q> OL </q>são listas que apresentam uma ordem de fatores, geralmente sequenciais e enumerados.</p>
+    <p>
+        As listas ordenadas<q> OL </q>são listas que apresentam uma ordem de fatores, geralmente sequenciais e enumerados.
+    </p>
     <ol type="1" start="1">
         <!--O START, vai indicar para a lista ordenada em qual número a lista deve começar sua contagem. Por padrão virá em 1.-->
         <li>Acordar</li>
@@ -22,14 +24,17 @@
         <li>estudar biologia</li>
         <li>Ir para a academia </li>
     </ol>
-    <p>A lista ordena aceita o parametro <strong>type</strong>, para modificar seus icones, sendo suas opções para mudança:</p>
-       <ul>
+    <p>
+        A lista ordena aceita o parametro <strong>type</strong>, para modificar seus icones, sendo suas opções para mudança:
+    </p>
+    <ul>
         <li>A: letras maioúsculas</li>
         <li>a: letras minúsculas</li>
         <li>1: Número inteiros</li>
         <li>I: Números romanos maiúsculos</li>
         <li>i:Números romanos minúsculos</li>
-       </ul>
+       
+    </ul>
     <hr>
     <h2>Listas não ordenadas</h2>
     <p>As listas não ordenadas <q>UL</q>, são aquelas que geralmente não apresentam uma sequencia enumerada, mas possui um sentido, a exemplo disso temo a lista de compras de supermercado.</p>
@@ -43,12 +48,67 @@
         <li>Tempero</li>
         <li>Margarina</li>
     </ul>
-    <p>Assim como a lista ordena, ela também aceita o parâmetro <strong>type</strong>, senfo suas opções:</p>
-        <ol>
-            <li>Disc: uma esfera preta</li>
-            <li>circle: um circuferência</li>
-            <li>square: um quadrado</li>
+    <p>
+        Assim como a lista ordena, ela também aceita o parâmetro <strong>type</strong>, senfo suas opções:
+    </p>
+    <ol>
+        <li>Disc: uma esfera preta</li>
+        <li>circle: um circuferência</li>
+        <li>square: um quadrado</li>
+    </ol>
+    <hr>
+    <h2>Juntando listas: Versão 1.0</h2>
+    <p>
+        Buscando fazer uma sublista, podemos colocar uma listra dentro de outra lista, e usando o <strong>type</strong> podemos fazer sua enumeração de forma que tenha uma ordem.
+    </p>
+    <h3>Minhas Linguagens favoritas</h3>
+    <p>
+        A lista abaixo é um exemplo de uma lista ordenada dentro de outra lista ordenada.
+    </p>
+    <ol>
+        <li>Antigas</li>
+        <ol type="a">
+            <li>Cliper</li>
+            <li>Visual básic</li>
+            <li>Fortran</li>
+            <li>Delph</li>
         </ol>
+        <li>novas</li>
+        <ol type="a" start="5">
+            <li>PHP</li>
+            <li>Python</li>
+            <li>Java  Script</li>
+            <li>Kotlin</li>
+        </ol>
+    </ol>
+    <h2>Meu jogos favoritos</h2>
+    <p> 
+        As listas abaixo são um exemplo de lista desordenada em uma lista ordenada
+
+    </p>
+    <ol>
+        <li>NSS</li>
+        <ul type="square">
+            <li>Mario Bros</li>
+            <li>Ninja gaiden</li>
+        </ul>
+        <li>SNESS</li>
+        <ul type="square">
+            <li>Mario</li>
+            <li>Donkei Kong</li>
+        </ul>
+        <li>Playstation</li>
+        <ul type="square">
+            <li>Final Fantasy</li>
+            <li>Castlevania</li>
+        </ul>
+    </ol>
+    <h2>Lista de definição </h2>
+    <p>Diferentemente das listas ordenadas e não ordenadas,aa lista de definição,serve para dar uma descrição para um termo dentro do <em>(DD)</em>, para um termo dentro do <em>(DT)</em>.</p>
+    <dl> 
+        <dt>HTML</dt>
+        <dd>linguagem de marcação para a criação de um site</dd>
+    </dl>
 </body>
 
 </html>
