@@ -1,0 +1,33 @@
+@charset "UTF-8";  
+
+*{ 
+    font-family: Arial, Helvetica, sans-serif;
+    /*height:100%;*/
+}
+body{
+    /*
+    Aqui temos o backgoud-image,com o parâmetro interno, linear gradiente, cujo o qual usamos para 
+    criar um degradê de cores em uma página.
+    */
+    background-image: linear-gradient(to right, #f1d8c9, #f2c3a7);
+}
+main{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 2px 2px 15px rgba(136, 109, 93, 0.596);
+    width: 600px;
+    padding: 15px; /*Espaçamento interno */
+    margin: auto;/*Espaçamento externo */
+}
+h1{
+   text-align: center;
+   color: #f39209;
+   text-shadow: 1px 1px 0px rgba(243, 146, 9, 0.549);
+}
+h2{
+    color: #125189;
+
+}
+p{
+    text-align: justify;
+}
