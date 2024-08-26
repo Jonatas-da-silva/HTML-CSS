@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a{
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        /*Ao link ser visitado ele mudará de cor*/
+        a:visited{
+            color: darkred;
+        }
+        a:hover{
+            text-decoration: underline;
+            color: black;
+            font-size: 1.4em;
+        }
+        /*Ao ficar ativo(SER CLICADO) a cor mudará para amarelo*/
+        a:active{
+            color: yellow;
+        }
+        .especial::before{
+            content: '➡️';
+            
+        }
+        .especial::after{
+           
+            content: '⬅️';
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        <li><a href="https://www.instagram.com/"  target="_blank">instagram</a></li>
+        <li><a href="https://www.google.com"  target="_blank" class="especial">google</a></li>
+        <li><a href="https://www.youtube.com"  target="_blank">youtube</a></li>
+    </ul>
+    
+</body>
+</html>
